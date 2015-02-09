@@ -21,18 +21,24 @@
  * <http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html>.
  */
 
-#include "Alvar.h"
+//#include "Alvar.h"
 
 #include <iostream>
+
+#ifdef HAVE_CONFIG_H
+#include "config.h"
+#endif
 
 namespace alvar {
 
 void alvarInfo()
 {
-    std::cerr << "ALVAR " << ALVAR_VERSION << " - A Library for Virtual and Augmented Reality" << std::endl;
+    //std::cerr << "ALVAR " << ALVAR_VERSION << " - A Library for Virtual and Augmented Reality" << std::endl;
+    std::cerr << "ALVAR " PACKAGE_VERSION " - A Library for Virtual and Augmented Reality" << std::endl;
     std::cerr << "Copyright 2007-2012 VTT Technical Research Centre of Finland" << std::endl;
     std::cerr << "Licensed under the GNU Lesser General Public License" << std::endl;
-    std::cerr << "Built on " << ALVAR_DATE << " for " << ALVAR_SYSTEM << std::endl;
+    //std::cerr << "Built on " << ALVAR_DATE << " for " << ALVAR_SYSTEM << std::endl;
+    std::cerr << "Built on " << __DATE__ << std::endl;
     std::cerr << std::endl;
 }
 
