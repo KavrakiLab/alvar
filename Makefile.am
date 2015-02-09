@@ -37,7 +37,6 @@ libalvar_la_SOURCES = \
 
 pkginclude_HEADERS =  \
 	src/AlvarException.h \
-	src/Alvar.h \
 	src/Bitset.h \
 	src/Camera.h \
 	src/ConnectedComponents.h \
