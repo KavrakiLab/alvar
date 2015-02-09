@@ -1,0 +1,1 @@
+#define ALVAR_EXPORT
