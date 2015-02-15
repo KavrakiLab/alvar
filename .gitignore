@@ -23,3 +23,9 @@
 .deps
 .dirstamp
 /stamp-h1
+/src/*.lo
+/src/*.o
+/*.la
+/src/.libs
+/.libs
+/*.in*

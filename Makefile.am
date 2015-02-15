@@ -36,6 +36,7 @@ libalvar_la_SOURCES = \
 	src/Util.cpp
 
 pkginclude_HEADERS =  \
+	src/Alvar.h \
 	src/AlvarException.h \
 	src/Bitset.h \
 	src/Camera.h \
